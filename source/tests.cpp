@@ -1,7 +1,16 @@
 #define CATCH_CONFIG_RUNNER
 #include <catch.hpp>
+#include <point2d.hpp>
 
-int main(int argc, char *argv[])
+
+
+TEST_CASE("describe_point2d", "[point2d]")
 {
-  return Catch::Session().run(argc, argv);
+	REQUIRE(
 }
+
+int main(int argc, char* argv[])
+{
+	return Catch::Session().run( argc, argv);
+}
+
